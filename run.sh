@@ -1,0 +1,3 @@
+#python train_simple.py --img 640 --batch-size 16 --epochs 20 --data data/kaist-rgbt.yaml --cfg models/yolov5l_advance_kaist-rgbt.yaml --weights yolov5m.pt --workers 16 --name yolov5l_advance_test-rgbt --single-cls --rgbt
+#python train_simple.py --img 640 --batch-size 16 --epochs 20 --data data/kaist-rgbt.yaml --cfg models/yolov5n_advance_kaist-rgbt.yaml --weights yolov5n.pt --workers 16 --name yolov5n_advance_adamw-rgbt --single-cls --rgbt
+python train_simple.py --img 640 --batch-size 16 --epochs 20 --data data/kaist-rgbt.yaml --cfg models/yolov5n_kaist-rgbt.yaml --weights yolov5n.pt --workers 16 --name yolov5n_cl4-rgbt --single-cls --rgbt
